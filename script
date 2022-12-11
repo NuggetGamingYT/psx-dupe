@@ -4,6 +4,8 @@ local Window = Library.CreateLib("PSX Dupe v1.3", "GrapeTheme")
 --MAIN
 local Main = Window:NewTab ("Dupes")
 local Scam = Window:NewTab ("Trade Scam")
+local Credits = Window:NewTab ("Credits")
+local Creditos = Credits:NewSection("Credits to Xyz")
 local DupeSection = Main:NewSection("Bank Dupe")
 local DupeSection2 = Main:NewSection("Other Dupes")
 local TradeSection = Scam:NewSection("TradeScam")
